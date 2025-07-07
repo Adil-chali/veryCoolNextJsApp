@@ -13,14 +13,12 @@
 // 	return data;
 // }
 
-export async function GET() {
-  return Response.json({
-    message:
-      'Uncomment this file and remove this line. You can delete this file when you are finished.',
-  });
-  // try {
-  // 	return Response.json(await listInvoices());
-  // } catch (error) {
-  // 	return Response.json({ error }, { status: 500 });
-  // }
-}
+// export async function GET() {
+//   try {
+//     const invoices = await listInvoices();
+//     return Response.json(invoices);
+//   } catch (error) {
+//     console.error('Error fetching invoices:', error); // Log the error
+//     return Response.json({ error: 'Internal Server Error' }, { status: 500 });
+//   }
+// }
